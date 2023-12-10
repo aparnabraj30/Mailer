@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7"
+  },
+  "name": "mailing-via-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aparna B Raj",
+  "license": "ISC",
+  "description": "This is a node.js script example using Nodemailer to send emails."
+}
