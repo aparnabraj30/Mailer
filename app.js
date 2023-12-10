@@ -5,15 +5,15 @@ const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: process.env.EMAIL_USER,
-    pass: process.env.APP_PASSWORD, 
+    pass: process.env.GMAIL_APP_PASSWORD, 
   },
 });
 
 const mailOptions = {
   from: process.env.EMAIL_USER,
-  to: 'sanjeevkrishna13x@gmail.com',
-  subject: 'Hello from Nodemailer',
-  text: 'Hi, how are you.',
+  to: 'aparnabraj2019@gmail.com',
+  subject: 'Nodemailer',
+  text: 'Greetings from NodeMailer',
 };
 
 transporter.sendMail(mailOptions, (error, info) => {
